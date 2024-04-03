@@ -1,0 +1,22 @@
+{
+    "name": "my-electron-app",
+    "version": "1.0.0",
+    "description": "My Electron App",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "build": {
+      "appId": "com.example.myapp",
+      "files": [
+        "electron/**/*",
+        "react_app/build/**/*"
+      ],
+      "directories": {
+        "output": "dist"
+      },
+      "win": {
+        "target": "nsis"
+      }
+    }
+  }
