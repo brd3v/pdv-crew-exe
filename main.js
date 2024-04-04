@@ -11,7 +11,7 @@ function createWindow () {
     }
   })
 
-  win.loadURL(path.join(__dirname + '/pdv-crew', 'build', 'index.html'));
+  win.loadURL(path.join(__dirname + '/front-end', 'build', 'index.html'));
 }
 
 app.whenReady().then(() => {
