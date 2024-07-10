@@ -9,8 +9,8 @@
     "build": {
       "appId": "com.example.myapp",
       "files": [
-        "electron/**/*",
-        "react_app/build/**/*"
+        "back-end/**/*",
+        "front-end/build/**/*"
       ],
       "directories": {
         "output": "dist"
